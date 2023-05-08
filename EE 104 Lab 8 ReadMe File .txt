@@ -1,0 +1,13 @@
+﻿Name: Andrew Lin
+Class: EE 104
+Demonstration Link: https://youtu.be/XZWfVQWHHKw 
+Reference: https://sjsu.instructure.com/courses/1559910/modules 
+
+
+In the first task, we are building a server and client that will take in files and answers questions based on information given in those files. The assignment involves building a web server and hosting the ChatGPT service to answer questions related to files uploaded to the web server. The prerequisites include installing Python and setting up OpenAI and Pinecone API keys. The trial run involves testing the Pinecone account on Google Colab, and the next step involves downloading the source code and storing the OpenAI and Pinecone API keys in the .env file. The server-side instructions involve filling out the config.yaml file and running the Flask app, while the client-side instructions involve running the Next.js client. Finally, browsing the app, uploading a file, and searching for content within that file are part of the final steps. 
+
+
+        In the next task, This guide involves building a web crawler to scrape a website and create a CSV file of its contents, and using OpenAI's natural language processing tools to search and retrieve information from the website.To build the web crawler, follow the instructions in the OpenAI tutorial. You will need to modify the web-qa.py file to use your own URL, and then execute the file to crawl the website and create a CSV file of its contents.After building the CSV file, you can use OpenAI's natural language processing tools to retrieve information from the website. Follow the instructions in the OpenAI tutorial to create an embeddings index of the CSV file, and then modify the web-qa.py file to use the embeddings index to retrieve information from the website. To execute the web-qa.py file, you will need to install several Python packages, including tiktoken, pandas, openai, python-dotenv, bs4, matplotlib, plotly, scipy, and sklearn. Once you have installed these packages, you can execute the web-qa.py file to retrieve information from the website. ote that the web-qa.py file includes a function crawl that crawls the website and creates a CSV file of its contents. You should only need to execute this function once, unless the website is updated. To execute the crawl function, uncomment the relevant line in the web-qa.py file and execute the file. Also note that if you encounter a rate limit error from OpenAI, you may need to remove some files from the text directory, as described in the code comments.
+
+
+        For the last part of the lab, we are creating a traffic controller. My partner and I have tried to complete this part but have failed to create a working circuit.
